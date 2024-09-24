@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.container{
+    width: 1800px;
+    margin: auto;
+}
+
+.navbar{
+    padding: 25px 0 25px 0;
+    background: linear-gradient(to right bottom, #485563, #29323c);
+}
+
+input{
+    padding: 8px 5% 8px 10px;
+    outline: none;
+}
+
+button{
+    padding: 8px 10px;
+    border: none;
+}
+
+button:hover{
+    color: #fff;
+    background-color: rgb(116, 116, 116);
+    border: none;
+    box-shadow: 4px 4px 8px 0px rgba(24, 40, 53, 0.38);
+    transition: .1s;
+}
+
+input, button{
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 2px;
+}
+
+.player{
+    width: 1800px;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.wrap{
+    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.466);
+    margin-top: 25px;
+    padding-bottom: 40px;
+}
+
+h1{
+    padding-top: 20px;
+    width: 1800px;
+    margin: auto;
+}
+
+.preview{
+    display: flex;
+    padding: 1.4% 3.3%;
+}
+
+.prev{
+    padding-right: 30px;
+}
+
+.prev:hover{
+    width: 350px;
+    height: 190px;
+    transform: scale(1.1);
+    transition: .5s;
+}
